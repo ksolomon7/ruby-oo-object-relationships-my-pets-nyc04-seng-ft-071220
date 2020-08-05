@@ -1,3 +1,23 @@
+require 'pry'
+
+
+
 class Cat
-  # code goes here
+  attr_accessor :name,:owner
+ def initialize(name_par,owner_par)
+  @name=name_par
+ 
+ end
+
+
+
+
+
+
+
+
 end
+
+
+# binding.pry
+0
